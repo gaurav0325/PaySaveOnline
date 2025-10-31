@@ -11,3 +11,19 @@ PaySaveOnline is a browser-based digital payment assistant that detects hidden c
 5. Display an advisory tooltip beside the payment button within one second.
 6. Maintain a local “savings dashboard” tracking avoided losses.
 7. Ensure all advice is calculated locally; no personal data leaves the user’s device.
+
+
+
+Detect the merchant’s currency from page markup or API calls.
+
+Compare against user card currency metadata.
+
+Fetch live FX rates (ECB API).
+
+Estimate loss or saving ≥ £0.50 triggers an alert.
+
+Identify DCC prompts (multiple currency selectors).
+
+Match against rule library for known surcharging merchants.
+
+Render contextual tooltip within 1 s.

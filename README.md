@@ -11,6 +11,21 @@ PaySaveOnline analyses checkout pages in real time and gives a short, accurate n
 > “Pay in EUR to save £3.20.”  
 > “Avoid Amex — this merchant adds a 1.5 % surcharge.”
 
+Core Capability — Real-time FX & Fee Intelligence
+PaySaveOnline analyses the checkout’s currency, payment methods, and your stored card data to detect:
+
+FX mark-ups when paying in a foreign currency.
+
+Dynamic Currency Conversion (DCC) traps that inflate totals by 3–5 %.
+
+Card surcharges on premium or international cards.
+It then gives a one-line recommendation that can save 2–5 % per purchase.
+
+and add a short example block:
+
+Example:
+“This site’s default is EUR. Paying in GBP adds ~3 %. Use Revolut — zero FX fee.”
+
 No personal data leaves the user’s device. Advice is generated locally, in under a second.
 
 ---
